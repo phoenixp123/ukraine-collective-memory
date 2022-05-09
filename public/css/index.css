@@ -1,0 +1,261 @@
+:root {
+    --forest-green: #386641;
+    --grass: #6a994e;
+    --moss-green: #a7c957;
+    --sand: #f2e8cf;
+    --crimson-red: #9A031E;
+    --hookers-green: #52796F;
+    --ash-gray: #CAD2C5;
+    --charcoal: #2F3E46;
+    --light-gray: #f4f4f9;
+    --neon-green: #3acf87;
+    --ukraine-blue: #0057B7;
+}
+
+body{
+    font-family: Helvetica !important;
+    text-align: center !important;
+    font-size: 130% !important;
+}
+
+#footer {
+    background-color: #efefef;
+    text-align: center;
+}
+
+.navbar {
+    background-color: var(--ukraine-blue) !important;
+
+
+}
+
+a {
+    color: white !important;
+}
+
+.navbar-brand{
+    font-size: 3rem !important;
+    padding-left: 3%;
+    font-family: Cambria!important;
+    font-weight: bold;
+}
+
+.nav-link{
+    font-size: 75% !important;
+    margin: auto;
+}
+
+.navbar{
+    font-size: 0.5rem !important;
+}
+
+.nav-link:hover{
+    font-size: 1.4rem !important;
+    color: var(--ash-gray) !important;
+}
+
+.hello{
+    color: white;
+}
+
+
+.logout{
+
+    height: 90%;
+}
+
+h2 {
+    color: var(--charcoal) !important;
+
+
+}
+
+.carousel-info {
+    padding-top: 15%;
+    text-align: center;
+    justify-content: center;
+    font-family: Bahnschrift;
+
+}
+
+h6{
+    text-align: left!important;
+    font-size: 85% !important;
+}
+
+.pub{
+    padding-top: 7%;
+    font-family: Bahnschrift;
+    padding-right: 10% !important;
+}
+
+
+.staff{
+    text-align: justify!important;
+    font-size: large;
+    font-weight: bold;
+
+}
+p{
+    padding-top: 1%;
+    color: gray;
+    font-size: 120%;
+
+}
+
+h4{
+
+    font-style: italic;
+}
+
+.btn-primary{
+    font-size: 1.2rem!important;
+}
+
+
+
+h5{
+    color: var(--charcoal);
+    font-weight: bold;
+    font-size: 110% !important;
+
+}
+
+
+.about-me {
+    color: black;
+    text-align: justify!important;
+}
+
+.btn-primary {
+    background-color: var(--hookers-green) !important;
+    border-color: var(--ash-gray) !important;
+    font-size: 1.5rem!important;
+    font-weight: bold;
+}
+
+.carousel-item img{
+    height: 64.45rem;
+    width: 120%;
+    margin: auto;
+
+
+}
+
+
+
+.divide{
+    height: 0.25rem !important;
+}
+
+.carousel-control-prev-icon{
+    color: #9A031E!important;
+}
+
+.container {
+    margin-top: 8%;
+}
+
+.box {
+    height: 9rem;
+    padding-top: 1.8rem;
+    background: var(--light-gray);
+    text-align: center
+}
+
+.box p {
+    color: gray;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    padding-bottom: 2%;
+}
+
+
+
+.count {
+    font-size: 2rem;
+    font-weight: bold;
+    color: dimgray;
+    font-family: Cambria!important;
+}
+
+.completed {
+    background: var(--neon-green)
+}
+
+.completed p,
+.completed .count {
+    color: #fff
+}
+
+#footer{
+    font-family: "Segoe UI";
+    font-weight: bold;
+    background-color: var(--ash-gray) !important;
+    color: var(--charcoal) !important;
+
+}
+.contact{
+    text-align: center;
+    color: #2F3E46;
+}
+
+.contact a{
+    font-size: 2rem;
+
+}
+
+ul{
+    font-size: 18px;
+    line-height: 1.6;
+    list-style: none;
+    text-decoration: none;
+
+
+
+}
+
+ul a{
+    text-decoration: none;
+}
+
+ul li{
+    display: inline-block;
+    padding: 2rem;
+    font-size: 130%;
+    justify-content: center;
+
+
+}
+.footerName{
+    padding-top: 2%;
+}
+
+.footerName, h3{
+    font-size: 200%;
+    font-family: Cambria!important;
+    font-weight: bold;
+
+}
+.copyright{
+    font-family: Cambria!important;
+    color: gray!important;
+    font-size: 2rem !important;
+
+}
+
+#third{
+    border-color: #2F3E46!important;
+}
+
+.img-pub{
+    height: 100%;
+    width: 60%;
+    text-align: left!important;
+}
+.pub-box {
+    padding: 1rem;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+
+}
