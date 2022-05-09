@@ -7,7 +7,7 @@ const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(__dirname + "/public"));
 
-app.listen(3000, function () {
+app.listen(process.env.PORT, function () {
     console.log("server started at 3000");
 });
 
